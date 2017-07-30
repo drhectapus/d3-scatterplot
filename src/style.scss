@@ -1,1 +1,25 @@
+h1 {
+  text-align: center;
+}
 
+.subtitle {
+  font-size: 18px;
+}
+
+.chart {
+  text-align: center;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 1em;
+  background: lightsteelblue;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+circle:hover {
+  stroke: black;
+  stroke-width: 1;
+}
